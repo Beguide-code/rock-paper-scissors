@@ -12,3 +12,9 @@ function getComputerChoice(){
 }
 
 getComputerChoice();
+
+const getHumanChoice = () => prompt('Enter rock, paper or scissors');
+
+const userChoice = getHumanChoice();
+console.log(userChoice);
+
